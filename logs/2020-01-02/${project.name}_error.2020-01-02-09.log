@@ -1,0 +1,18 @@
+[${project.name}][${env:SERVER_PORT}] 2020-01-02 10:00:41,740 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field tenantService in com.shanjupay.merchant.service.MerchantServiceImpl required a bean of type 'com.shanjupay.user.api.TenantService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.shanjupay.user.api.TenantService' in your configuration.
+

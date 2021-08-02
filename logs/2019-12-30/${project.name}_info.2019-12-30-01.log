@@ -1,0 +1,1 @@
+[${project.name}][${env:SERVER_PORT}] 2020-12-30 02:00:04,581 WARN [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] - Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
